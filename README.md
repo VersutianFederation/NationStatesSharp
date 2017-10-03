@@ -1,2 +1,2 @@
-# NationStatesSharp
-The successor to the popular NationStates++ extension
+# NationStates#
+The successor to the popular NationStates++ extension.
