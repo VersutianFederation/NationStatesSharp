@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "NationStates#",
+    "version": "1.0.0",
+
+    "description": "A successor to the popular NationStates++ extension.",
+
+    "icons": {
+        "48": "icons/nsharp@48.png",
+        "96": "icons/nsharp@96.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.nationstates.net/*"],
+            "js": ["src/nsharp.js"]
+        }
+    ],
+
+    "applications": {
+        "gecko": {
+            "id": "nsharp@circuitsoft.org"
+        }
+    }
+}
